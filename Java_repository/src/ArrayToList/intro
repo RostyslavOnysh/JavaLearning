@@ -1,0 +1,11 @@
+how to convert an array to list
+
+We have 3 methods :
+
+1 :
+at first we can create clear list and after that add new elements;
+after do iteration in all array elements
+Finally, add these items to your list.
+
+
+
