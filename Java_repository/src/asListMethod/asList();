@@ -1,0 +1,3 @@
+2:
+Use method Arrays.asList();
+a built-in method provided by Arrays to convert an array to a list.
