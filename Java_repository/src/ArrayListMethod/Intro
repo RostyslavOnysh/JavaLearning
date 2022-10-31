@@ -1,0 +1,7 @@
+
+3:
+
+Here we just use new ArrayList<>(Arrays.asList(integers));
+to convert our array to a list.
+The main advantage of this method over the previous one
+s that the created array allows the user to add more elements to the list.
