@@ -1,0 +1,47 @@
+
+With the remainder and division operators in Java,
+we can create code that checks whether a particular number is a palindrome or not.
+
+Stages of creating a program for checking numeric palindromes :
+//////////////////////////////////////////////////////////////
+1: Enter or initialize the number to be checked.
+2: Creating a temporary variable and storing a number in it.
+3: Invert the number.
+4: Compare the time number with the inverse number.
+5: If both numbers are equal, then it is a palindrome.
+
+
+The algorithm of the program :
+1: Start of the program.
+2: Receiving user input or initializing it manually (number).
+3:Creating a new variable (initialNum) and saving the input.
+4:Until num becomes zero, we find the remainder of num and store it in a variable (reverse Num).
+5: We determine whether initialNum corresponds to the reverse Num number.
+6: If both numbers are equal, we deduce that this is a palindrome.
+7: Otherwise, it's not a palindrome.
+8: Termination of the program.
+
+first cheker with for loop
+second with while
+
+
+
+С операторами остатка и деления в Java мы можем создать код, который проверяет, является ли конкретное число палиндромом или нет.
+Этапы создания программы для проверки числовых палиндромов :
+
+1: Вводим или инициализируем число, подлежащее проверке.
+2: Создаем временную переменную и сохраняем в ней число.
+3: Инвертируем число.
+4: Сравниваем временное число с обратным числом.
+5: Если оба числа равны, значит это палиндром.
+
+
+Aлгоритм работы программы :
+1: Старт программы.
+2: Прием пользовательского ввода или инициализация его вручную (число).
+3: Создание новой переменной (initialNum) и сохранение ввода.
+4: Пока (num) не станет равным нулю, находим остаток от num и сохраняем его в переменной (reverse Num).
+5: Определяем, соответствует ли (initialNum) числу reverse Num.
+6: Если оба числа равны, выводим что это палиндром.
+7: В ином случае это не палиндром.
+8: Завершение работы программы.
