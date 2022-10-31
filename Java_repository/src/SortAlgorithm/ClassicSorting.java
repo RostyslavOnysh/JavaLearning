@@ -15,6 +15,6 @@ public class ClassicSorting {
         Arrays.sort(array_decreasing_sort);
         Arrays.sort(array_decreasing_sort, Collections.reverseOrder());
         System.out.println("descending order : "+Arrays.toString(array_decreasing_sort));
-        // this array was sorted in descending order
+        // this array was sorted in descending order//
     }
 }
