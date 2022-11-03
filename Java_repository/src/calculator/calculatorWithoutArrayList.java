@@ -10,19 +10,8 @@ public class calculatorWithoutArrayList {
         BufferedReader br = new BufferedReader(isr);
         calculatorWithoutArrayList otp = new calculatorWithoutArrayList();
         String choice1 = JOptionPane.showInputDialog
-                ("Mathematical operation list :" +
-                        " -\\n1.Addition" +
-                        "\\n2.Subtraction" +
-                        "\\n3.Multiplication" +
-                        "\\n4.Division" +
-                        "\\n5.Modulus" +
-                        "\\n6.Square Root" +
-                        "\\n7.Exponent" +
-                        "\\n8.Pi" +
-                        "\\n9.Sine" +
-                        "\\n10.Cosine" +
-                        "\\n11.Tangent" +
-                        "\\nEnter the number of the mathematical operation of your choice");
+                ("Mathematical operations list:" +
+                        "-\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.Modulus\n6.Square Root\n7.Exponent\n8.Pi\n9.Sine\n10.Cosine\n11.Tangent\nEnter the number of the mathematical operation of your choice");
         int choice = Integer.parseInt(choice1);
         if (choice == 1) {
             otp.Addition();
