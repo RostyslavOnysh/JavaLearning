@@ -114,3 +114,5 @@ public class Logic extends repeatLine{
         JOptionPane.showMessageDialog(null, "Answer: " + ans, "Answer", JOptionPane.INFORMATION_MESSAGE);
     }
 }
+
+////
