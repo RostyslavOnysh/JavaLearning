@@ -8,7 +8,7 @@ public class repeatLine {
 
     InputStreamReader isr = new InputStreamReader(System.in);
     BufferedReader br = new BufferedReader(isr);
-      }
+}
 
 
 

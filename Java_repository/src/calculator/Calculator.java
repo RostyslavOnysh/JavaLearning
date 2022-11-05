@@ -6,34 +6,45 @@ import javax.swing.JOptionPane;
 
 public class Calculator extends Logic {
     public static void main(String[] args) throws IOException {
-        InputStreamReader isr = new InputStreamReader(System.in);
-        BufferedReader br = new BufferedReader(isr);
-        Calculator otp = new Calculator();
+        InputStreamReader InputStreamReader = new InputStreamReader(System.in);
+        BufferedReader BufferedReader = new BufferedReader(InputStreamReader);
+        Calculator calculator = new Calculator();
         String choice1 = JOptionPane.showInputDialog
-                ("Mathematical operations list:" + "-\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.Modulus\n6.Square Root\n7.Exponent\n8.Pi\n9.Sine\n10.Cosine\n11.Tangent\nEnter the number of the mathematical operation of your choice");
+                ("Mathematical operations list:" + "-\n1.Addition" +
+                        "\n2.Subtraction" +
+                        "\n3.Multiplication" +
+                        "\n4.Division" +
+                        "\n5.Modulus" +
+                        "\n6.Square Root" +
+                        "\n7.Exponent" +
+                        "\n8.Pi" +
+                        "\n9.Sine" +
+                        "\n10.Cosine" +
+                        "\n11.Tangent" +
+                        "\nEnter the number of the mathematical operation of your choice");
         int choice = Integer.parseInt(choice1);
         if (choice == 1) {
-            otp.Addition();
+            calculator.Addition();
         } else if (choice == 2) {
-            otp.Subtraction();
+            calculator.Subtraction();
         } else if (choice == 3) {
-            otp.Multiplication();
+            calculator.Multiplication();
         } else if (choice == 4) {
-            otp.Division();
+            calculator.Division();
         } else if (choice == 5) {
-            otp.Modulus();
+            calculator.Modulus();
         } else if (choice == 6) {
-            otp.Squareroot();
+            calculator.Squareroot();
         } else if (choice == 7) {
-            otp.Exponent();
+            calculator.Exponent();
         } else if (choice == 8) {
-            otp.Pi();
+            calculator.Pi();
         } else if (choice == 9) {
-            otp.Sine();
+            calculator.Sine();
         } else if (choice == 10) {
-            otp.Cosine();
+            calculator.Cosine();
         } else if (choice == 11) {
-            otp.Tangent();
+            calculator.Tangent();
         } else {
             JOptionPane.showMessageDialog(null, "Enter a number between 1 and 11",
                     "info", JOptionPane.INFORMATION_MESSAGE);
